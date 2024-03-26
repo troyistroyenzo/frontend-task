@@ -30,15 +30,14 @@ body {
 
 .hero-section p {
   text-align: left;
-  margin: 1rem auto; /* Vertical margins of 10px and horizontal margins set to auto */
-  padding: 0 3rem; /* Optional: Adds padding inside each <p> tag, adjust as needed */
+  margin: 1rem auto; 
+  padding: 0 3rem; 
 }
 
-/* Additional styling for responsiveness and aesthetics */
 .hero-section img {
-  max-width: 100%; /* Makes the image responsive */
-  max-height: 100%; /* Makes the image responsive */
-  height: auto; /* Maintains aspect ratio */
+  max-width: 100%; 
+  max-height: 100%; 
+  height: auto; 
   padding: 5%;
 }
 
@@ -46,7 +45,7 @@ body {
  .orange-section {
   background-color: #E0411D;
   color: white;
-  height: 50vh; /* Use min-height to ensure content fits */
+  height: 50vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,15 +54,15 @@ body {
 
 .icon-container {
   background-color: white;
-  border-radius: 50%; /* Ensures circle shape */
+  border-radius: 50%; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .icon-container img {
-  width: 80%; /* Adjust image size within the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 80%; 
+  height: auto; 
 }
 
 .main-title, .subtitle, .year, .triangle {
@@ -71,18 +70,18 @@ body {
 }
 
 .main-title {
-  font-size: 2rem; /* Responsive font size */
+  font-size: 2rem; 
   margin-bottom: 1rem;
 }
 
 .year {
-  font-size: 4rem; /* Larger font size for emphasis */
+  font-size: 4rem; 
   font-weight: bold;
   margin: 1rem 0;
 }
 
 .subtitle {
-  font-size: 1.5rem; /* Subtitle font size */
+  font-size: 1.5rem; 
 }
 
 /* GRID */
